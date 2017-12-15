@@ -1,0 +1,62 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: "Courier New", Courier, monospace;
+}
+
+.boxLayout {
+	border-radius: 15px;
+	font-size: 14px;
+	background: #E46A5F;
+	padding: 1%;
+	width: 15%;
+	height: auto;
+	min-height: 150px;
+	min-width: 200px;
+}
+
+.icon {
+	height: 25px;
+	width: 25px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+a.login {
+	text-decoration: underline;
+}
+
+.inputUser {
+	background: url(../images/login/avatar.png) left no-repeat;
+	padding-left: 30px;
+	height: 30px;
+	width: 90%;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-color: transparent;
+}
+
+.inputPass {
+	background: url(../images/login/lock.png) left no-repeat;
+	padding-left: 30px;
+	height: 30px;
+	width: 90%;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-color: transparent;
+}
+
+.errorArea {
+	height: 8%;
+	width: auto;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.butn {
+	height: 30px;
+	width: 90%;
+	background-color: black;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	font-weight: bold;
+	color: #E46A5F;
+	font-weight: bold;
+}

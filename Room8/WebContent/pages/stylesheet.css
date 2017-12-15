@@ -1,0 +1,143 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: rgb(205, 205, 205);
+	width: 100%;
+	background-repeat: repeat-x;
+	background-image: url(../images/cityscape.png);
+	background-size: 30%;
+	background-position: center bottom;
+	background-attachment: fixed;
+	padding-bottom: 20%;
+	font-family: Calibri;
+	font-size: 18px;
+}
+
+h1,h2,h3 {
+	font-family: "Courier New", Courier, monospace;
+}
+
+table#menutable {
+	margin: 1.5%;
+	margin-top: 0;
+	border: solid 5px;
+	border-color: rgb(227, 115, 103);
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	width: 55%;
+	min-width: 500px;
+	text-align: center;
+	table-layout: fixed;
+}
+
+table#menutable td {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+table#userSched {
+	width: 100%;
+	text-align: center;
+	border: 0px solid;
+	border-collapse: collapse;
+}
+
+table#userSched th {
+	background-color: #E46A5F;
+	width:20%;
+	padding: 1%;
+}
+
+table#userSched tr:hover {
+	background-color: rgba(178, 165, 156, 0.3);
+}
+
+table#userSched td {
+	padding: 1%;
+	border-bottom: 1px solid #ddd;
+}
+
+div#header {
+	position: center;
+	text-align: center;
+}
+
+div#locale {
+	margin-left: 75%;
+	margin-top: -1%;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-color: black;
+	color: white;
+	padding: 0.7%;
+	padding-top: 1.5%;
+	font-family: "Courier New", Courier, monospace;
+	position: fixed;
+}
+
+div#myBookings {
+	width: 100%;
+}
+
+div#book {
+	text-align: center;
+}
+
+div.content {
+	margin-left: 15%;
+	margin-right: 15%;
+	padding: 3%;
+	min-height: 100%;
+	background: rgba(255, 255, 255, 0.9);
+}
+
+img#toplog {
+	max-height: 100%;
+	max-width: 100%;
+	margin: 1.5%;
+}
+
+a.menuItem {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+a.localeItem {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+a.menuItem:HOVER {
+	text-decoration: underline;
+}
+
+a.localeItem:HOVER {
+	text-decoration: underline;
+}
+
+input::-webkit-input-placeholder {
+	color: white !important;
+}
+
+input:-moz-placeholder {
+	color: white !important;
+}
+
+input:-ms-input-placeholder {
+	color: white !important;
+}
+
+.pad {
+	padding-top: 5px;
+}
+
+.buttn {
+	height: 30px;
+	background-color: black;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	font-weight: bold;
+	color: #E46A5F;
+	font-weight: bold;
+}
